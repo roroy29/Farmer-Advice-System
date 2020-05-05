@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("slider1.png") ;
+	-webkit-background-size: inherit;
+	-moz-background-size: inherit;
+	-o-background-size: inherit;
+	background-size: inherit;
+}
+
+.wrapper .b{
+	border: 1px solid black;
+}
+.wrapper{
+	height: 100%;
+	width: 100%;
+}
+.s_menu{
+	height: 80%;
+	width: 17%;
+	background-color: transparent;
+	float: left;
+}
+.head1{
+	height: 10%;
+	width: 82%;
+	background-color:#63f123;
+	font-size: large;
+	float: right;
+}
+.head1 h2{
+	text-transform: uppercase;
+}
+
+.main-content{
+	height: 75%;
+	width: 75%;
+	background-color: transparent;
+	position: fixed;
+	top: 15%;
+	left: 21%;
+}
+.content{
+	top: 18%;
+	height: 70%;
+	width: 75%;
+	position: fixed;
+
+}
+#cont1{
+	overflow: visible;
+}
+.back-b
+{
+	height: 15%;
+	width: 100%;
+	position: fixed;
+	top: 85%;
+}
+.back-bt img{
+	left: 21%;
+	top: 85%;
+	position: fixed;
+	margin: 10px;
+}
+.s_menu .men{
+	height: auto;
+	width: 100%;
+	background: #229225;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	font-size: large;
+	}
+.s_menu .m1{
+	height: 20%;
+	width: 100%;
+	background: #63f123;
+	text-align: center;
+	text-transform: uppercase;
+	word-wrap: break-word
+}
+.content button{
+	margin: 15px 10px;
+
+	height: 30%;
+	width: 80%;
+}
+.active{
+	text-decoration: underline;
+	font-size: large;
+}
+.catbtn
+{
+	margin: 10px 0px;
+	padding: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+center a{
+	font-size: x-large;
+}
+.mbtn
+{
+	padding: 10px;
+
+	font-weight: bold;
+	font-size: large;
+	text-transform: uppercase;
+	
+}
+.wrapper a{
+	text-decoration: none;
+	color: black;
+}
+
+.content table h2{
+	text-align: left;
+	font-weight: bold;
+	color: white;
+
+}
+
+
+.content table th{
+	background-color: #63f123;
+}
+
+#tb1 table tr:nth-child(odd) {background: #e9f3ea; height: auto;}
+#tb1 table tr:nth-child(even) {background: #cfe5d3; height: auto;}
+.qus{
+	height: auto;
+	width: 100%;
+	background-color: white;
+	border: 1px solid black;
+}
+.replyque{
+	height: 50px;
+	width: 800px;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid black;
+}
+.back-b
+{
+	height: 15%;
+	width: 100%;
+	position: absolute;
+	top: 99%;
+}
+.back-b button{
+	padding: 20px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.qus h3{
+	padding: 0px 10px;
+}
+.content .email{
+	padding: 10px  100px 10px 2px;
+}
+.content textarea{
+	height: 150px;
+	width:  80%;
+	padding: 10px;
+}
+
+.sbtn{
+
+	padding: 0px;
+	text-transform: uppercase;
+	margin: 20px 0px 0 700px;
+	font-weight: bold;
+}
+.succ{
+	background-color: white;
+	border: 1px solid black;
+	margin: 200px 200px  50px;
+}
+.okbtn{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px;
+}
+.mess{
+	height: auto;
+	width: 100%;
+	border: 1px solid black;
+	margin: 150px 0px;
+	position: absolute;
+	background-color: white;
+}
+.login{
+	height: auto;
+	width: auto;
+	margin: 250px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.login table input{
+	padding: 10px;
+}
+.login .sub{
+	padding: 10px 90px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.logout{
+	height: auto;
+	width: auto;
+	margin: 0 0 0 80%;
+}
+
+.logout button{
+	padding: 10px 90px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.boxed {
+	border: 1px solid black;
+	background-color: white;
+	margin: 5%;
+	width: 85%;
+}
+
+#aboutbtn {
+	float: right;
+	width: 200px;
+	height: 40px;
+	font-size: 20px;
+}
+h1{
+	font-size: 50px;
+}
+
+.main-content h1 {
+	font-size: large;
+}
+@media(max-device-width: 600px) {
+	body {
+		width: 100%;
+		height: 90%;
+		position: fixed;
+
+		background-image: url("slider1.png");
+		-webkit-background-size: auto;
+		-moz-background-size: auto;
+		-o-background-size: auto;
+		background-size: 400%;
+	}
+
+	.main-content h1 {
+		font-size: 40px;
+	}
+
+	.catbtn {
+		margin: 35px 0%;
+		padding: 90px;
+		width: 400px;
+		font-weight: bold;
+		font-size: 40px;
+		text-transform: uppercase;
+
+	}
+
+	#aboutbtn {
+		float: right;
+		width: 250px;
+		height: 130px;
+		font-size: 40px;
+	}
+
+	h1 {
+		font-size: 80px;
+	}
+
+	.s_menu {
+		height: 90%;
+		width: 17%;
+		background-color: transparent;
+		float: left;
+	}
+
+	.head1 {
+		height: 6%;
+		width: 82%;
+		background-color: #63f123;
+
+		float: right;
+	}
+
+	.main-content {
+		height: 75%;
+		width: 75%;
+		background-color: transparent;
+		position: fixed;
+		top: 10%;
+		left: 21%;
+		font-size: xx-large;
+	}
+
+	.content {
+		top: 12%;
+		height: 70%;
+		width: 75%;
+		position: fixed;
+		font-size: xx-large;
+
+	}
+
+	.s_menu .men{
+		height: 100px;
+		width: 100%;
+		background: #229225;
+		text-align: center;
+		text-transform: uppercase;
+		color: black;
+		font-size: xx-large;
+	}
+
+	.active{
+		text-decoration: underline;
+		font-size: x-large;
+	}
+	.mbtn
+	{
+		padding: 50px;
+
+		font-weight: bold;
+		font-size: x-large;
+		text-transform: uppercase;
+
+	}
+
+	.head1{
+		height: 10%;
+		width: 82%;
+		background-color:#63f123;
+		font-size: xx-large;
+		float: right;
+	}
+
+	.back-b
+	{
+		height: 15%;
+		width: 100%;
+		position: fixed;
+		top: 85%;
+	}
+	.back-bt img{
+		position: fixed;
+		margin: 5px;
+
+	}
+
+	.qus{
+		height: auto;
+		width: 100%;
+		background-color: white;
+		border: 1px solid black;
+	}
+
+	.content table h2{
+		text-align: left;
+		font-weight: bold;
+		font-size: 40px;
+		color: white;
+
+	}
+	.content table td{
+		font-size: x-large;
+	}
+
+	#tb1 table tr:nth-child(odd) {
+		background: #e9f3ea;
+		height: auto;
+	}
+	#tb1 table tr:nth-child(even) {
+		background: #cfe5d3;
+		height: auto;
+	}
+
+	.sbtn{
+		cursor: pointer;
+		padding: 2px 2px;
+		text-transform: uppercase;
+		text-align: center;
+		height: 21px;
+		width: 70px;
+		margin: 20px 0px 0 300px;
+		font-weight: bold;
+	}
+	.succ{
+		background-color: white;
+		border: 1px solid black;
+		margin: 200px 200px  50px;
+		height: 30%;
+		width: 60%;
+		font-size: 50px;
+	}
+	.okbtn{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 40px;
+	}
+	center a{
+		font-size: xx-large;
+	}
+	}
